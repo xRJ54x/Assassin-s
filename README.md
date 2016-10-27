@@ -1,5 +1,4 @@
-This is a very early idea of an Android Application. It uses basic Http requests and the timing of the packets from source to destination
-is used to determine who your target is. You are given a target when you first open the app, it is the users job to find and "eliminate"
-the target. When you find the target, you shake your phone in the direction of the person and it pings multiple times and establishes
-a connection with that person. A 6 byte hex code is sent from the target to the source phone. A notification pops up on the senders phone
-and a new target is given.
+This is a very early idea of an Android Application. It uses basic Http requests and the timing of the packets sent from source to destination to determine who your target is. You are given a target when you first open the app, it is the users job to find and "eliminate" the target. When you find the target, you shake your phone in the direction of the target and it pings multiple times and establishes a connection with that person. A 6 byte hex code is sent from the target to the senders phone. A notification pops up on the senders phone and a new target is given.
+
+What is most important is getting the timing of the phone signals. How fast the packets should be received when you shake your phone in the direction of the person. If it is straight on, then the distance changed should be the amount of distance your phone has changed. If 
+it is off , then it is at an angle (not straight on) and refuses to establish a connection. (With some leeway)
